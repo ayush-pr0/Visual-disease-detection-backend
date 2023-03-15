@@ -6,9 +6,7 @@ const port = 3000;
 
 app.get("/labs/covid19", (req, res) => {
     const data = {
-        // path: "D:\\Work\\Disease Detection\\Diagnosticc\\Uploaded_images\\.png",
         path: "D:\\Work\\Disease Detection\\Dataset\\CNN-covid-Dataset\\COVID\\COVID-2.png",
-        // path: "D:\\Work\\Disease Detection\\Dataset\\Brain-Tumor-Classification-DataSet\\Testing\\no_tumor\\image(1).jpg",
     };
     let dataToSend;
 
@@ -30,8 +28,6 @@ app.get("/labs/covid19", (req, res) => {
 
 app.get("/labs/brain_tumor", (req, res) => {
     let data = {
-        // path: "D:\\Work\\Disease Detection\\Diagnosticc\\Uploaded_images\\.png",
-        // path: "D:\\Work\\Disease Detection\\COVID-19-master\\CovidDataset\\Train\\Normal\\IM-0172-0001.jpeg",
         path: "D:\\Work\\Disease Detection\\Dataset\\Brain-Tumor-Classification-DataSet\\Testing\\no_tumor\\image(1).jpg",
     };
     let dataToSend;
