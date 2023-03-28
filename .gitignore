@@ -1,2 +1,4 @@
 node_modules/
 model/*
+result/*
+script/__pycache__*
